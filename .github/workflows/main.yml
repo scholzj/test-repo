@@ -1,0 +1,10 @@
+on: [issue, pull_request]
+
+jobs:
+  milestone-check:
+    runs-on: ubuntu-latest
+    name: Milestone Check
+    steps:
+    - name: Checking if milestone is set
+      id: milestone-check
+      uses: scholzj/milestone-check-action@v1
