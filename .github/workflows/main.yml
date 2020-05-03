@@ -7,4 +7,4 @@ jobs:
     steps:
     - name: Checking if milestone is set
       id: milestone-check
-      uses: scholzj/milestone-check-action@v6
+      uses: scholzj/milestone-check-action@v7
