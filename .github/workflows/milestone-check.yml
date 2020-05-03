@@ -9,3 +9,5 @@ jobs:
     - name: Checking if milestone is set
       id: milestone-check
       uses: scholzj/milestone-check-action@v9
+      with:
+        status_context: 'Milestone Check Action'
