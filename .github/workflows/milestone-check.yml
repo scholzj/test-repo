@@ -1,3 +1,4 @@
+name: Milestone Check
 on: [issues, pull_request]
 
 jobs:
