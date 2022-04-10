@@ -1,5 +1,6 @@
 name: Milestone Check
-on: [issues, pull_request]
+#on: [issues, pull_request]
+on: []
 
 jobs:
   milestone-check:
